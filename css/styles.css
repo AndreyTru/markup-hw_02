@@ -1,3 +1,52 @@
+/* Основной цвет, заголовки #212121 */
+/* цвет текста #757575 */
+/* акцент синий #2196F3 */
+/* лого черный #000000 */
+/* лого белый #FFFFFF */
+/* банер, футер #2F303A */
+/* body #F5F5F5 */
+/* bg team #F5F4FA */
+
+:root{
+--primary-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196F3;
+--logo-black: #000000;
+--logo-white: #FFFFFF;
+--bg-footer: #2F303A;
+--bg-body:  #F5F5F5; 
+--bg-team: #F5F4FA;
+}
+
 body{
-    background-color: tomato;
+    background-color: #F5F5F5;
+    color: #212121 ;
+  }
+  .list{
+    list-style: none;
+  }
+
+
+/* Section-contacts */
+.section-contacts .link{
+  color: #212121 ;
+} 
+.section-contacts .link:hover, 
+.section-contacts .link:focus  {
+color: #2196F3 ;
+}
+
+/* Hero */
+.hero-title{
+
+}
+
+/* Section */
+.section-title{
+  color: #212121 ;
+}
+
+/* Наши преимущества */
+.text{
+  color: #757575 ;
 }
